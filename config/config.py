@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQCMdzgC4lPpjoxy8G7QEVyJLDeHtG4jBKhavq0UdEa-RnfUb8-P8gHg7XTu4k-nLW6XH3djR-Wnchi33n-cMAqxUy83Mf0sTZIkPJFYUQBs2rNHpsuoh4RrbCQvGXPJ87Lc4ICFazxdMnaYwDUm9hpiNk4BnUDtkGZp7znueo3iLpK_E8GOwkbGurfxAmTmjZLJnJ76YdHZT7wJbaa2SVa33lSe_e8tBuBqJ05ZF7X0RzHrcElw-qijIX4pfM3RlKkzipiC3trQr24VXqZi2NSq5vJAI5bUa8xw7AVqx2lDFFzyWTMjNlp0xPU2X9_gGYh4wsfQl3qrwzOwXEBL-k86AAAAAXYBm0UA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -168,7 +168,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/157dc5906c0f9498cf85a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
